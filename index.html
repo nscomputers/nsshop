@@ -33,7 +33,7 @@
     </script>
     <style>
         body { font-family: 'Inter', sans-serif; }
-        /* Custom scrollbar styling for drawer */
+        /* Custom scrollbar styling for drawer and modals */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: #f1f1f1; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
@@ -201,6 +201,51 @@
             </div>
         </div>
     </main>
+
+    <!-- Product Detail Modal Popup -->
+    <div id="productModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-200">
+        <div class="bg-white w-full max-w-2xl rounded-2xl shadow-2xl border border-slate-200 overflow-hidden flex flex-col max-h-[90vh] transform scale-95 transition-transform duration-200" id="productModalPanel">
+            <div class="p-4 border-b border-slate-100 flex items-center justify-between bg-slate-50">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="info" class="w-5 h-5 text-brand-600"></i>
+                    <h3 class="font-bold text-slate-900 text-base">Product Details</h3>
+                </div>
+                <button id="closeModalBtn" class="text-slate-400 hover:text-slate-600 p-1 rounded-lg hover:bg-slate-200/50 transition">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+            
+            <div class="p-6 overflow-y-auto space-y-6">
+                <div class="flex flex-col md:flex-row gap-6">
+                    <div class="w-full md:w-1/2 h-64 bg-slate-100 rounded-xl overflow-hidden shrink-0 border border-slate-200 relative">
+                        <img id="modalImage" src="" alt="" class="w-full h-full object-cover">
+                        <span id="modalBadge" class="hidden absolute top-3 right-3 bg-amber-500 text-white font-bold text-[10px] tracking-wider px-2.5 py-1 rounded-lg uppercase shadow-sm"></span>
+                    </div>
+                    <div class="flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <span id="modalCategory" class="inline-block bg-slate-100 text-slate-700 text-xs font-semibold px-2.5 py-1 rounded-lg mb-2"></span>
+                            <h2 id="modalTitle" class="text-xl font-bold text-slate-900 mb-2"></h2>
+                            <p id="modalStock" class="text-xs font-semibold text-emerald-600 mb-4 inline-flex items-center gap-1 bg-emerald-50 px-2 py-1 rounded-md border border-emerald-100"></p>
+                            <div class="text-2xl font-extrabold text-brand-600 mb-4" id="modalPrice"></div>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-semibold uppercase text-slate-400 tracking-wider mb-1">Specifications & Description</h4>
+                            <p id="modalDescription" class="text-xs text-slate-600 leading-relaxed"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-4 border-t border-slate-100 bg-slate-50 flex gap-3 justify-end">
+                <button id="modalWhatsAppBtn" class="bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-700 font-semibold text-xs py-2.5 px-4 rounded-xl flex items-center gap-2 transition active:scale-95">
+                    <i data-lucide="message-square" class="w-4 h-4"></i> Order via WhatsApp
+                </button>
+                <button id="modalAddToCartBtn" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold text-xs py-2.5 px-5 rounded-xl flex items-center gap-2 shadow-md transition active:scale-95">
+                    <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-xs text-slate-500">
@@ -378,6 +423,7 @@
         let maxPrice = 600000;
         let sortBy = "featured";
         let cart = [];
+        let currentModalProductId = null;
 
         // DOM Elements
         const productGrid = document.getElementById('productGrid');
@@ -391,9 +437,22 @@
         const sortSelect = document.getElementById('sortSelect');
         const resetFiltersBtn = document.getElementById('resetFiltersBtn');
 
+        // Modal Elements
+        const productModal = document.getElementById('productModal');
+        const productModalPanel = document.getElementById('productModalPanel');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+        const modalImage = document.getElementById('modalImage');
+        const modalBadge = document.getElementById('modalBadge');
+        const modalCategory = document.getElementById('modalCategory');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalStock = document.getElementById('modalStock');
+        const modalPrice = document.getElementById('modalPrice');
+        const modalDescription = document.getElementById('modalDescription');
+        const modalWhatsAppBtn = document.getElementById('modalWhatsAppBtn');
+        const modalAddToCartBtn = document.getElementById('modalAddToCartBtn');
+
         // JSON Modal Elements
         const jsonModal = document.getElementById('jsonModal');
-        const openJsonBtn = document.getElementById('openJsonBtn');
         const closeJsonBtn = document.getElementById('closeJsonBtn');
         const cancelJsonBtn = document.getElementById('cancelJsonBtn');
         const applyJsonBtn = document.getElementById('applyJsonBtn');
@@ -508,7 +567,8 @@
                 emptyState.classList.add('hidden');
                 productGrid.innerHTML = filtered.map(product => `
                     <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition duration-200 flex flex-col justify-between group">
-                        <div>
+                        <!-- Clickable container to view details -->
+                        <div class="cursor-pointer" onclick="openProductModal(${product.id})">
                             <div class="relative h-48 bg-slate-100 overflow-hidden">
                                 <img src="${product.image || 'https://placehold.co/600x400/e2e8f0/475569?text=NS+Computers'}" alt="${product.name}" 
                                     class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
@@ -603,6 +663,23 @@
                 filterAndRenderProducts();
             });
 
+            // Product Detail Modal Handlers
+            closeModalBtn.addEventListener('click', closeProductModal);
+            productModal.addEventListener('click', (e) => {
+                if (e.target === productModal) closeProductModal();
+            });
+            modalAddToCartBtn.addEventListener('click', () => {
+                if (currentModalProductId !== null) {
+                    addToCart(currentModalProductId);
+                    closeProductModal();
+                }
+            });
+            modalWhatsAppBtn.addEventListener('click', () => {
+                if (currentModalProductId !== null) {
+                    quickOrderWhatsApp(currentModalProductId);
+                }
+            });
+
             // JSON Modal Handlers
             closeJsonBtn.addEventListener('click', closeJsonModal);
             cancelJsonBtn.addEventListener('click', closeJsonModal);
@@ -621,6 +698,38 @@
             closeCartBtn.addEventListener('click', closeCart);
             cartBackdrop.addEventListener('click', closeCart);
             whatsappCheckoutBtn.addEventListener('click', sendCartToWhatsApp);
+        }
+
+        // Product Detail Modal Actions
+        function openProductModal(productId) {
+            const product = products.find(p => p.id === productId);
+            if (!product) return;
+
+            currentModalProductId = product.id;
+            modalImage.src = product.image || 'https://placehold.co/600x400/e2e8f0/475569?text=NS+Computers';
+            modalCategory.textContent = product.category || 'General';
+            modalTitle.textContent = product.name;
+            modalStock.textContent = product.stock || 'In stock';
+            modalPrice.textContent = `LKR ${(product.price || 0).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+            modalDescription.textContent = product.description || 'No detailed specifications provided.';
+
+            if (product.badge) {
+                modalBadge.textContent = product.badge;
+                modalBadge.classList.remove('hidden');
+            } else {
+                modalBadge.classList.add('hidden');
+            }
+
+            productModal.classList.remove('opacity-0', 'pointer-events-none');
+            productModalPanel.classList.remove('scale-95');
+            productModalPanel.classList.add('scale-100');
+        }
+
+        function closeProductModal() {
+            productModal.classList.add('opacity-0', 'pointer-events-none');
+            productModalPanel.classList.remove('scale-100');
+            productModalPanel.classList.add('scale-95');
+            currentModalProductId = null;
         }
 
         // JSON Modal Actions
