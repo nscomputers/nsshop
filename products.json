@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "ASUS ROG Strix G16 Gaming Laptop",
+    "category": "Laptops",
+    "price": 1399.99,
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80",
+    "description": "Intel Core i7 13th Gen, NVIDIA RTX 4060 8GB, 16GB DDR5 RAM, 1TB NVMe SSD."
+  }
+]
