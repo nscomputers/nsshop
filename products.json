@@ -1,16 +1,16 @@
 [
   {
-    "id": 1793333020148,
+    "id": 1793361185522,
     "name": "USB 3D Sound Adapter",
-    "category": "Gaming Peripherals",
     "price": 600,
+    "category": "Audio",
     "badge": "HOT",
     "stock": "In stock",
     "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/03/03-01.jpg",
     "description": "USB Plug & Play, 3D Audio Immersive Sound Experience, Virtual 5.1 Surround Sound Track, No Extra Drivers Needed."
   },
   {
-    "id": 1793333020149,
+    "id": 1793361185523,
     "name": "iPhone 11 Pro Case",
     "category": "Accessories",
     "price": 950,
@@ -20,7 +20,7 @@
     "description": "360 Protection, Camera Protection, Anti Slip, Lightweight, Stylish, Protective."
   },
   {
-    "id": 1793333020150,
+    "id": 1793361185524,
     "name": "Dominic Best Correction Tape",
     "category": "Accessories",
     "price": 150,
@@ -30,17 +30,17 @@
     "description": "8M Tape Length, 5mm Tape Width, Strong Coverage, Smooth & Precise, Non-Toxic & Environmentally Friendly."
   },
   {
-    "id": 1793333020151,
+    "id": 1793361185525,
     "name": "Wireless ANC Earbuds",
-    "category": "Gaming Peripherals",
     "price": 1200,
+    "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
     "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/03/03-04.jpg",
     "description": "ANC Noise Cancellation, Clear Sound, Comfortable Fit, Wireless Freedom, Perfect for Music, Calls & Everyday Use."
   },
   {
-    "id": 1793333020152,
+    "id": 1793361185526,
     "name": "Halobao LED 3-Mode Spotlight BB3019",
     "category": "Accessories",
     "price": 550,
@@ -50,7 +50,7 @@
     "description": "3 Modes, Compact Design, LED Spotlight, German Technology, Varied Color, Brightness comparable to xenonlamp."
   },
   {
-    "id": 1793333020153,
+    "id": 1793361185527,
     "name": "Jnuobi Universal Power Bank 10000mAh DY-28",
     "category": "Accessories",
     "price": 2500,
@@ -60,7 +60,7 @@
     "description": "Fast Charging, Safe & Reliable Overcharge Protection, Multiple Outputs (USB & Type-C), Portable Design, LED Indicator."
   },
   {
-    "id": 1793333020154,
+    "id": 1793361185528,
     "name": "Lito 60W Super Charging Cable",
     "category": "Accessories",
     "price": 1500,
@@ -70,7 +70,7 @@
     "description": "Type-C to Type-C, Soft Silicone, 60W Fast Charging, 1.2M Length, Soft & Flexible, Anti-Break Design."
   },
   {
-    "id": 1793333020155,
+    "id": 1793361185529,
     "name": "SK 20W Hot Melt Glue Gun",
     "category": "Components",
     "price": 650,
@@ -80,7 +80,7 @@
     "description": "20W Power, 100-240V, Built-in On/Off Switch, For DIY, Crafts & Repairs."
   },
   {
-    "id": 1793333020156,
+    "id": 1793361185530,
     "name": "Hot Melt Glue Gun 20W (Black)",
     "category": "Components",
     "price": 450,
@@ -90,7 +90,7 @@
     "description": "Fast, Easy, Strong, 20W Glue Gun, 110V-220V 50Hz/60Hz."
   },
   {
-    "id": 1793333020157,
+    "id": 1793361185531,
     "name": "Handboss Universal Foam Cleaning Agent",
     "category": "Accessories",
     "price": 900,
@@ -100,7 +100,7 @@
     "description": "Powerful Cleaning, Eco-Friendly Formula, Multi-Surface Use, Fresh Fragrance, Built-in Brush Head, 650ml."
   },
   {
-    "id": 1793333004014,
+    "id": 1793361185532,
     "name": "Dual LED Light Module",
     "category": "Accessories",
     "price": 900,
@@ -110,7 +110,7 @@
     "description": "Dual LED Arrays, Compact Design, Multi-LED Layout, Easy to Carry."
   },
   {
-    "id": 1793333004015,
+    "id": 1793361185533,
     "name": "Aspor A705 Riding Bracket",
     "category": "Accessories",
     "price": 1200,
@@ -120,7 +120,7 @@
     "description": "Gravity Sensing Automatic Clamping, 360 Degree Rotation, Adjustable Side Arms, Strong Vent Clip."
   },
   {
-    "id": 1793333004016,
+    "id": 1793361185534,
     "name": "Power Boost Cable 1M",
     "category": "Accessories",
     "price": 850,
@@ -130,7 +130,7 @@
     "description": "Fast Charging, Stable Transmission, Strong & Durable, Quick Sync, Built-in Smart Chip."
   },
   {
-    "id": 1793333004017,
+    "id": 1793361185535,
     "name": "Nanoq 300 WiFi + Bluetooth 2-in-1 USB Adapter",
     "category": "Components",
     "price": 1650,
@@ -140,17 +140,17 @@
     "description": "Windows 10/11 Compatible, Driver-Free, Plug & Play, High Speed WiFi Connection, Seamless Bluetooth Pairing."
   },
   {
-    "id": 1793333004018,
+    "id": 1793361185536,
     "name": "Kisonli KS-13 USB Speaker",
-    "category": "Gaming Peripherals",
     "price": 1950,
+    "category": "Audio",
     "badge": "SALE",
     "stock": "In stock",
     "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/02/02-05.jpg",
     "description": "USB 2.0, Compact Desktop Sound, Easy Plug & Play, Small Size Big Sound."
   },
   {
-    "id": 1793333004019,
+    "id": 1793361185537,
     "name": "LBT L-906E Windshield In-Car Phone Holder",
     "category": "Accessories",
     "price": 950,
@@ -160,27 +160,27 @@
     "description": "Secure Phone Grip, Flexible Gooseneck, 360 Degree Viewing Angle, Easy Windshield Mount, Strong Suction Cup."
   },
   {
-    "id": 1793333004020,
+    "id": 1793361185538,
     "name": "RGB LED Soft Ring Light MJ16",
-    "category": "Gaming Peripherals",
     "price": 980,
+    "category": "Light",
     "badge": "TOP PICK",
     "stock": "In stock",
     "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/02/02-07.jpg",
     "description": "RGB Multicolor Lighting, Soft Even Illumination, Ideal for Selfies & Video, Phone Holder Included, Multiple RGB Light Modes."
   },
   {
-    "id": 1793333004021,
+    "id": 1793361185539,
     "name": "Greatnice GTS-1362 Portable Wireless Speaker",
-    "category": "Gaming Peripherals",
     "price": 1000,
+    "category": "Audio",
     "badge": "NEW",
     "stock": "In stock",
     "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/02/02-08.jpg",
     "description": "3 Inch Speaker, High Quality Sound, Wireless Connectivity, Long Lasting Battery, FM Radio Function, Universal USB & Micro SD."
   },
   {
-    "id": 1793333004022,
+    "id": 1793361185540,
     "name": "USB Bluetooth 5.1 Dongle",
     "category": "Components",
     "price": 700,
@@ -190,7 +190,7 @@
     "description": "Bluetooth 5.1, Faster Stable & Wider Range, Compact USB Design, For Laptops & Computers, Plug and Play No Drivers Needed."
   },
   {
-    "id": 1793333004023,
+    "id": 1793361185541,
     "name": "Two Color Mini Steel Gun Spotlight",
     "category": "Accessories",
     "price": 490,
@@ -200,7 +200,7 @@
     "description": "Dual-Color Switching (White/Yellow), Super Bright Beam, Mini Compact Design, Steel-Gun Durability, Low Beam Yellow, High Beam White."
   },
   {
-    "id": 1793333004024,
+    "id": 1793361185542,
     "name": "LDNIO LS891 Fast Charging Data Cable",
     "price": 800,
     "category": "Cables & Adapters",
@@ -210,7 +210,7 @@
     "description": "LDNIO LS891 USB-A to USB-C 25W fast charging and data cable (1000mm length). Features anti-bending, ultra-strong design with smart security material."
   },
   {
-    "id": 1793333004025,
+    "id": 1793361185543,
     "name": "ASPOR A219 Stereo Earphones",
     "price": 700,
     "category": "Audio",
@@ -220,17 +220,17 @@
     "description": "ASPOR A219 Hi-Fi Audio wired stereo earphones with built-in microphone and 3.5mm connector. Delivers extra bass and full music & call playback control."
   },
   {
-    "id": 1793333004026,
+    "id": 1793361185544,
     "name": "Logitech M150 Rechargeable Wireless Mouse",
     "price": 1150,
-    "category": "Peripherals",
+    "category": "Accessories",
     "badge": "",
     "stock": "In stock",
     "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/01/01-03.jpg",
     "description": "Logitech M150 rechargeable wireless mouse with vibrant RGB edge lighting, precise scroll wheel, and ergonomic comfortable grip design for work and play."
   },
   {
-    "id": 1793333004027,
+    "id": 1793361185545,
     "name": "GREATNICE GTS-1360 Portable Wireless Speaker",
     "price": 1000,
     "category": "Speakers",
@@ -240,7 +240,7 @@
     "description": "GREATNICE GTS-1360 3-inch portable wireless speaker featuring TWS stereo, FM radio function, long-lasting battery, and USB/Micro SD card inputs."
   },
   {
-    "id": 1793333004028,
+    "id": 1793361185546,
     "name": "MASTER MS-333 LED Rechargeable Flashlight",
     "price": 600,
     "category": "Accessories",
@@ -250,7 +250,7 @@
     "description": "MASTER MS-333 3W LED handheld flashlight with 1W side SMD light, USB rechargeable port, compact portable body, and included rechargeable battery."
   },
   {
-    "id": 1793333004029,
+    "id": 1793361185547,
     "name": "EVA Fashion Waterproof Raincoat",
     "price": 500,
     "category": "Apparel & Gear",
@@ -260,7 +260,7 @@
     "description": "Lightweight unisex EVA fashion raincoat offering waterproof weather protection. Features hooded design, multi-color options, and foldable compact storage."
   },
   {
-    "id": 1793333004030,
+    "id": 1793361185548,
     "name": "RGB LED Strip Lights Kit",
     "price": 1000,
     "category": "Lighting",
@@ -270,7 +270,7 @@
     "description": "Multi-color RGB LED strip light set with 24-key IR remote control. Features 16+ colors, power adapter, and dynamic lighting modes (flash, strobe, fade, smooth)."
   },
   {
-    "id": 1793333004031,
+    "id": 1793361185549,
     "name": "Handy Multi-Purpose Tool Sprayer",
     "price": 350,
     "category": "Tools",
@@ -280,7 +280,7 @@
     "description": "Compact and lightweight multi-purpose utility tool featuring an adjustable collar nozzle, durable body, and ergonomic grip for everyday usage."
   },
   {
-    "id": 1793333004032,
+    "id": 1793361185550,
     "name": "WASP FEELERS Mobile Gaming Finger Sleeves",
     "price": 150,
     "category": "Gaming Accessories",
@@ -290,10 +290,10 @@
     "description": "High-sensitivity mobile gaming finger sleeves designed for seamless touch control, sweat resistance, and smoother gameplay on touchscreen devices."
   },
   {
-    "id": 1793333004033,
+    "id": 1793361185551,
     "name": "USB 3.0 4-Port High Speed Hub",
     "price": 1200,
-    "category": "Peripherals",
+    "category": "Accessories",
     "badge": "",
     "stock": "In stock",
     "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/01/01-10.jpg",
