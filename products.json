@@ -1,5 +1,38 @@
 [
   {
+    "id": 1795701993587,
+    "name": "V36MINI SPEAKER",
+    "price": 2200,
+    "category": "Audio",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/V36MINI%20SPEAKER.PNG?raw=true",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795701976993,
+    "name": "S576 JEDEL 2.0 SPEAKER",
+    "price": 1900,
+    "category": "Audio",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/S576%20JEDEL%202.0%20SPEAKER.PNG?raw=true",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795701960769,
+    "name": "KISONLI V360 SPEAKER",
+    "price": 1650,
+    "category": "Audio",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/KISONLI%20V360%20SPEAKER.PNG?raw=true",
+    "description": "",
+    "status": "active"
+  },
+  {
     "id": 1795701028058,
     "name": "SENDEM Type C Handfree",
     "price": 700,
