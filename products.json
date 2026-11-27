@@ -28,7 +28,7 @@
     "category": "Vehical Items",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Vehical%20Items/Bike%20Rim%20Sticker%20Radiant.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Vehical%20Items/Bike%20Rim%20Sticker%20Radiant.jpg",
     "description": "",
     "status": "active"
   },
@@ -39,7 +39,7 @@
     "category": "Light",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/40W%20RGP%20Spot%20Light.jpg?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Light/40W%20RGP%20Spot%20Light.jpg",
     "description": "",
     "status": "active"
   },
@@ -138,7 +138,7 @@
     "category": "Mobile Accessories",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/03/03-02.jpg",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Mobile%20Accessories/iPhone%2011%20Pro%20Case.jpg",
     "description": "360 Protection, Camera Protection, Anti Slip, Lightweight, Stylish, Protective.",
     "status": "active"
   },
@@ -212,7 +212,7 @@
     "category": "Electronics",
     "badge": "SALE",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Electronics/Hot%20Melt%20Glue%20Gun%2020W%20(Black).jpg",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Electronics/Hot%20Melt%20Glue%20Gun%2020W%20(Black).jpg",
     "description": "Fast, Easy, Strong, 20W Glue Gun, 110V-220V 50Hz/60Hz.",
     "status": "active"
   },
@@ -223,7 +223,7 @@
     "category": "Other",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/03/03-10.jpg",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Tools/Handy%20Multi-Purpose%20Tool%20Sprayer.jpg",
     "description": "Powerful Cleaning, Eco-Friendly Formula, Multi-Surface Use, Fresh Fragrance, Built-in Brush Head, 650ml.",
     "status": "active"
   },
@@ -311,7 +311,7 @@
     "category": "Light",
     "badge": "HOT",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/Two%20Color%20Mini%20Steel%20Gun%20Spotlight.jpg?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Light/Two%20Color%20Mini%20Steel%20Gun%20Spotlight.jpg",
     "description": "Dual-Color Switching (White/Yellow), Super Bright Beam, Mini Compact Design, Steel-Gun Durability, Low Beam Yellow, High Beam White.",
     "status": "active"
   },
@@ -322,8 +322,9 @@
     "category": "Cables & Adapters",
     "badge": "",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/01/01-01.jpg",
-    "description": "LDNIO LS891 USB-A to USB-C 25W fast charging and data cable (1000mm length). Features anti-bending, ultra-strong design with smart security material."
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Cable/LDNIO%20LS891%20Fast%20Charging%20Data%20Cable.jpg",
+    "description": "LDNIO LS891 USB-A to USB-C 25W fast charging and data cable (1000mm length). Features anti-bending, ultra-strong design with smart security material.",
+    "status": "active"
   },
   {
     "id": 1795699307291,
@@ -376,7 +377,7 @@
     "category": "Light",
     "badge": "",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/RGB%20LED%20Strip%20Lights%20Kit.jpg?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Light/01-07.jpg",
     "description": "Multi-color RGB LED strip light set with 24-key IR remote control. Features 16+ colors, power adapter, and dynamic lighting modes (flash, strobe, fade, smooth).",
     "status": "active"
   },
@@ -387,7 +388,7 @@
     "category": "Other",
     "badge": "",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/01/01-08.jpg",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Tools/Handboss%20Universal%20Foam%20Cleaning%20Agent.jpg",
     "description": "Compact and lightweight multi-purpose utility tool featuring an adjustable collar nozzle, durable body, and ergonomic grip for everyday usage.",
     "status": "active"
   },
