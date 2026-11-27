@@ -50,7 +50,7 @@
     "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/V36MINI%20SPEAKER.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/V36MINI%20SPEAKER.jpg",
     "description": "",
     "status": "active"
   },
@@ -61,18 +61,7 @@
     "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/S576%20JEDEL%202.0%20SPEAKER.PNG?raw=true",
-    "description": "",
-    "status": "active"
-  },
-  {
-    "id": 1795701960769,
-    "name": "KISONLI V360 SPEAKER",
-    "price": 1650,
-    "category": "Audio",
-    "badge": "TOP PICK",
-    "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/KISONLI%20V360%20SPEAKER.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/S576%20JEDEL%202.0%20SPEAKER.jpg",
     "description": "",
     "status": "active"
   },
@@ -83,7 +72,7 @@
     "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/SENDEM%20Type%20C%20Handfree.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/SENDEM%20Type%20C%20Handfree.jpg",
     "description": "",
     "status": "active"
   },
@@ -94,7 +83,7 @@
     "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/JBL%20700BT%20BLUETOOTH%20HEADPHONE.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/JBL%20700BT%20BLUETOOTH%20HEADPHONE.jpg",
     "description": "",
     "status": "active"
   },
@@ -105,7 +94,7 @@
     "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/Celebrat%20G26%20Handfree.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/Celebrat%20G34%20Handfree.jpg",
     "description": "",
     "status": "active"
   },
@@ -116,7 +105,7 @@
     "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/Celebrat%20G34%20Handfree.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/Celebrat%20G26%20Handfree.jpg",
     "description": "",
     "status": "active"
   },
@@ -127,7 +116,7 @@
     "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/3.5mm%20Handfree%20Normal.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/3.5mm%20Handfree%20Normal.jpg",
     "description": "",
     "status": "active"
   },
@@ -138,7 +127,7 @@
     "category": "Audio",
     "badge": "HOT",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/USB%20Sound%20Card.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/USB%20Sound%20Card.jpg",
     "description": "USB Plug & Play, 3D Audio Immersive Sound Experience, Virtual 5.1 Surround Sound Track, No Extra Drivers Needed.",
     "status": "active"
   },
@@ -170,7 +159,7 @@
     "category": "Audio",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Audio/Airbuds%20Normal.PNG?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/Airbuds%20Normal.jpg",
     "description": "ANC Noise Cancellation, Clear Sound, Comfortable Fit, Wireless Freedom, Perfect for Music, Calls & Everyday Use.",
     "status": "active"
   },
