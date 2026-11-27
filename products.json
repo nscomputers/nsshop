@@ -1,12 +1,90 @@
 [
   {
-    "id": 1795699307290,
-    "name": "LDNIO LS891 Fast Charging Data Cable",
-    "price": 800,
-    "category": "Cables & Adapters",
+    "id": 1795775821567,
+    "name": "Home LED Lights",
+    "price": 0,
+    "category": "Light",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/Home%20LED%20Lights%20.jpg?raw=true",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795752427184,
+    "name": "40W RGP Spot Light",
+    "price": 2200,
+    "category": "Light",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/40W%20RGP%20Spot%20Light.jpg?raw=true",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795699307274,
+    "name": "Halobao LED 3-Mode Spotlight BB3019",
+    "price": 550,
+    "category": "Light",
+    "badge": "HOT",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/Halobao%20LED%203-Mode%20Spotlight%20BB3019.jpg?raw=true",
+    "description": "3 Modes, Compact Design, LED Spotlight, German Technology, Varied Color, Brightness comparable to xenonlamp.",
+    "status": "active"
+  },
+  {
+    "id": 1795699307280,
+    "name": "Eye Light Dual LED Light Module",
+    "price": 900,
+    "category": "Light",
+    "badge": "NEW",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/Eye%20Light%20Dual%20LED%20Light%20Module.jpg?raw=true",
+    "description": "Dual LED Arrays, Compact Design, Multi-LED Layout, Easy to Carry.",
+    "status": "active"
+  },
+  {
+    "id": 1795699307286,
+    "name": "RGB LED Soft Ring Light MJ16",
+    "price": 980,
+    "category": "Light",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/RGB%20LED%20Soft%20Ring%20Light%20MJ16.jpg?raw=true",
+    "description": "RGB Multicolor Lighting, Soft Even Illumination, Ideal for Selfies & Video, Phone Holder Included, Multiple RGB Light Modes.",
+    "status": "active"
+  },
+  {
+    "id": 1795699307289,
+    "name": "Two Color Mini Steel Gun Spotlight",
+    "price": 490,
+    "category": "Light",
+    "badge": "HOT",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/Two%20Color%20Mini%20Steel%20Gun%20Spotlight.jpg?raw=true",
+    "description": "Dual-Color Switching (White/Yellow), Super Bright Beam, Mini Compact Design, Steel-Gun Durability, Low Beam Yellow, High Beam White.",
+    "status": "active"
+  },
+  {
+    "id": 1795699307294,
+    "name": "MASTER MS-333 LED Rechargeable Flashlight",
+    "price": 600,
+    "category": "Light",
     "badge": "",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/01/01-01.jpg",
-    "description": "LDNIO LS891 USB-A to USB-C 25W fast charging and data cable (1000mm length). Features anti-bending, ultra-strong design with smart security material."
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/MASTER%20MS-333%20LED%20Rechargeable%20Flashlight.jpg?raw=true",
+    "description": "MASTER MS-333 3W LED handheld flashlight with 1W side SMD light, USB rechargeable port, compact portable body, and included rechargeable battery.",
+    "status": "active"
+  },
+  {
+    "id": 1795699307296,
+    "name": "RGB LED Strip Lights Kit",
+    "price": 1000,
+    "category": "Light",
+    "badge": "",
+    "stock": "In stock",
+    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/Light/RGB%20LED%20Strip%20Lights%20Kit.jpg?raw=true",
+    "description": "Multi-color RGB LED strip light set with 24-key IR remote control. Features 16+ colors, power adapter, and dynamic lighting modes (flash, strobe, fade, smooth).",
+    "status": "active"
   }
 ]
