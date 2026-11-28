@@ -1,5 +1,115 @@
 [
   {
+    "id": 1795833353592,
+    "name": "YES PLUS YS1614 FAN",
+    "price": 650,
+    "category": "Other",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Others/YES%20PLUS%20YS1614%20FAN.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795833286360,
+    "name": "TYPE C USB HUB",
+    "price": 900,
+    "category": "Mobile Accessories",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Mobile%20Accessories/TYPE%20C%20USB%20HUB.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795833144958,
+    "name": "K100 MEETION 3 LANGUAGE KEYBOARD",
+    "price": 1750,
+    "category": "PC Accessories",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/PC%20Accessories/K100%20MEETION%203%20LANGUAGE%20KEYBOARD.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795833114326,
+    "name": "3.0 3.1 USB Hub Card Reader",
+    "price": 1650,
+    "category": "PC Accessories",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/PC%20Accessories/3.0%203.1%20USB%20Hub%20Card%20Reader.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795831892876,
+    "name": "3 in 1 Switch HDMI",
+    "price": 950,
+    "category": "PC Accessories",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/PC%20Accessories/3%20in%201%20Switch%20HDMI.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795831855453,
+    "name": "GP Silicon Gum 80g",
+    "price": 500,
+    "category": "Other",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Others/GP%20Silicon%20Gum%2080g.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795831776236,
+    "name": "1.5m HDMI Flat Cable",
+    "price": 800,
+    "category": "Cables & Adapters",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Cable/1.5m%20HDMI%20Flat%20Cable.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795831406947,
+    "name": "Gerlax Micro Cable L45V  L49V",
+    "price": 1200,
+    "category": "Cables & Adapters",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Cable/Gerlax%20Micro%20Cable%20L45V%20%20L49V.JPG",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795831343290,
+    "name": "YES PLUS YS841 3IN1 CABLE",
+    "price": 1200,
+    "category": "Cables & Adapters",
+    "badge": "NEW",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Cable/YES%20PLUS%20YS841%203IN1%20CABLE.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
+    "id": 1795831108591,
+    "name": "KISONLI V360 SPEAKER",
+    "price": 1650,
+    "category": "Audio",
+    "badge": "TOP PICK",
+    "stock": "In stock",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Audio/KISONLI%20V360%20SPEAKER.jpg",
+    "description": "",
+    "status": "active"
+  },
+  {
     "id": 1795775821567,
     "name": "Home LED Lights",
     "price": 0,
@@ -145,12 +255,13 @@
   {
     "id": 1795699307272,
     "name": "Dominic Best Correction Tape",
-    "category": "Accessories",
     "price": 150,
+    "category": "Stationery",
     "badge": "NEW",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/03/03-03.jpg",
-    "description": "8M Tape Length, 5mm Tape Width, Strong Coverage, Smooth & Precise, Non-Toxic & Environmentally Friendly."
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Stationery/Dominic%20Best%20Correction%20Tape.jpg",
+    "description": "8M Tape Length, 5mm Tape Width, Strong Coverage, Smooth & Precise, Non-Toxic & Environmentally Friendly.",
+    "status": "active"
   },
   {
     "id": 1795699307273,
@@ -177,22 +288,24 @@
   {
     "id": 1795699307275,
     "name": "Jnuobi Universal Power Bank 10000mAh DY-28",
-    "category": "Accessories",
     "price": 2500,
+    "category": "Battery",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/03/03-06.jpg",
-    "description": "Fast Charging, Safe & Reliable Overcharge Protection, Multiple Outputs (USB & Type-C), Portable Design, LED Indicator."
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Battery/JNUOBI%20Power%20Bank%20E-Commerce%20Poster.jpg",
+    "description": "Fast Charging, Safe & Reliable Overcharge Protection, Multiple Outputs (USB & Type-C), Portable Design, LED Indicator.",
+    "status": "active"
   },
   {
     "id": 1795699307276,
     "name": "Lito 60W Super Charging Cable",
-    "category": "Accessories",
     "price": 1500,
+    "category": "Cables & Adapters",
     "badge": "HOT",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/03/03-07.jpg",
-    "description": "Type-C to Type-C, Soft Silicone, 60W Fast Charging, 1.2M Length, Soft & Flexible, Anti-Break Design."
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Cable/LITO%2060W%20Super%20Charging%20Cable%20Ad.jpg",
+    "description": "Type-C to Type-C, Soft Silicone, 60W Fast Charging, 1.2M Length, Soft & Flexible, Anti-Break Design.",
+    "status": "active"
   },
   {
     "id": 1795699307277,
@@ -267,7 +380,7 @@
     "category": "PC Accessories",
     "badge": "TOP PICK",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/02/02-04.jpg",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/PC%20Accessories/Nanoq 300 WiFi + Bluetooth 2-in-1 USB Adapter.jpg",
     "description": "Windows 10/11 Compatible, Driver-Free, Plug & Play, High Speed WiFi Connection, Seamless Bluetooth Pairing.",
     "status": "active"
   },
@@ -300,7 +413,7 @@
     "category": "PC Accessories",
     "badge": "SALE",
     "stock": "In stock",
-    "image": "https://github.com/nscomputers/nsshop/blob/main/Images/PC%20Accessories/USB%203.0%204-Port%20High%20Speed%20Hub.jpg?raw=true",
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/PC%20Accessories/USB%20Bluetooth%205.1%20Dongle.jpg",
     "description": "Bluetooth 5.1, Faster Stable & Wider Range, Compact USB Design, For Laptops & Computers, Plug and Play No Drivers Needed.",
     "status": "active"
   },
@@ -396,11 +509,12 @@
     "id": 1795699307298,
     "name": "WASP FEELERS Mobile Gaming Finger Sleeves",
     "price": 150,
-    "category": "Gaming Accessories",
+    "category": "Mobile Accessories",
     "badge": "",
     "stock": "In stock",
-    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/refs/heads/main/Images/01/01-09.jpg",
-    "description": "High-sensitivity mobile gaming finger sleeves designed for seamless touch control, sweat resistance, and smoother gameplay on touchscreen devices."
+    "image": "https://raw.githubusercontent.com/nscomputers/nsshop/main/Images/Mobile%20Accessories/WASP%20FEELERS%20Mobile%20Gaming%20Finger%20Sleeves.jpg",
+    "description": "High-sensitivity mobile gaming finger sleeves designed for seamless touch control, sweat resistance, and smoother gameplay on touchscreen devices.",
+    "status": "active"
   },
   {
     "id": 1795699307299,
